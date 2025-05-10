@@ -18,7 +18,7 @@ export default function LeftSidebar() {
       </div> */}
 
       {/* desktop: 사이드바 */}
-      <aside className="md:flex w-64 h-screen bg-white dark:bg-black p-3 flex-col fixed">
+      <aside className="hidden md:flex w-64 h-screen bg-pink-300 dark:bg-black p-3 flex-col fixed">
         <div className="mb-3 text-left">
           <img
             src="/images/profile.jpg"
@@ -43,7 +43,7 @@ export default function LeftSidebar() {
              <span className="font-bold">2016.02 - 2020.02</span>
               <p className="text-sm">
                 B.S in Computer Science <br/>
-                Kookmin University, Republi of Korea
+                Kookmin University, Republic of Korea
               </p>
             </li>
           </ul>

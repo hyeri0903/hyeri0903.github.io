@@ -4,10 +4,10 @@ import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
 
 const WorkExperience = () => {
   return (
-    <section className="px-4 py-8 bg-white dark:bg-black transition-colors duration-200">
-      {/* ✅ max-width + 중앙 정렬 */}
+    <section className="px-4 py-8 dark:bg-black transition-colors duration-200">
+      {/* max-width + 중앙 정렬 */}
       <div className="max-w-screen-lg mx-auto">
-        <h2 className="text-lg sm:text-3xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
+        <h2 className="text-2xl sm:text-3xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
           Work Experience
         </h2>
         {/* 경력 내용 */}
@@ -65,7 +65,7 @@ const WorkExperience = () => {
              
               <ul className="mt-2 list-disc list-inside text-gray-800 dark:text-gray-300 text-base space-y-1">
                 <li>Contributed to develop of the services’s centralised logging system for better observability.</li>
-                <li>Led migration of the legacy Multilingual Management System from Python based architecture to Java and React based stack.                </li>
+                <li>Led migration of the legacy Multilingual Management System from Python based architecture to Java and React based stack.</li>
               </ul>
           </div>
            {/* Intern - Works Mobile */}
