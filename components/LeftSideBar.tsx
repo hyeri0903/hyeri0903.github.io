@@ -18,7 +18,7 @@ export default function LeftSidebar() {
       </div> */}
 
       {/* desktop: 사이드바 */}
-      <aside className="md:flex w-64 h-screen bg-red-50 dark:bg-black p-3 flex-col fixed">
+      <aside className="md:flex w-64 h-screen bg-white dark:bg-black p-3 flex-col fixed">
         <div className="mb-3 text-left">
           <img
             src="/images/profile.jpg"

@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function FirstBody() {
+export default function Profile() {
   return (
-    <section className="text-left mx-auto px-4 py-16 bg-green-50 dark:bg-black transition-colors duration-200">
-      <h2 className="text-left text-lg sm:text-3xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2 w-full">
+    <section className="text-left mx-auto px-4 py-8 bg-grey-300 dark:bg-black transition-colors">
+      <h2 className="text-left text-lg sm:text-3xl md:text-3xl font-bold text-gray-900 dark:text-white w-full">
         Profile
       </h2>
       <p className="font-sans text-base leading-relaxed text-gray-700 dark:text-gray-300 font-normal">

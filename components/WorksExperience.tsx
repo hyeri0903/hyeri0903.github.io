@@ -1,11 +1,10 @@
 import React from "react";
-import FeatureCard from "./FeatureCard";
 import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
 
 const WorkExperience = () => {
   return (
-    <section className="px-4 py-5 bg-blue-50 dark:bg-black transition-colors duration-200">
+    <section className="px-4 py-8 bg-white dark:bg-black transition-colors duration-200">
       {/* ✅ max-width + 중앙 정렬 */}
       <div className="max-w-screen-lg mx-auto">
         <h2 className="text-lg sm:text-3xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
@@ -96,7 +95,7 @@ const WorkExperience = () => {
            <div>
               <div className="flex justify-between items-center">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                  Shinesegae I&X
+                  Shinesegae I&C
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Jan 2020 - Mar 2020

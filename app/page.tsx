@@ -10,10 +10,10 @@ export default function Page() {
     <div className="flex-col min-h-screen bg-white dark:bg-black">
       <Header />
       <main className="scroll-smooth max-w-3xl mx-auto px-4">
-        <section id="profile">
+        <section id="profile" className="scroll-mt-20">
           <Profile />
         </section>
-       <section id="work-experience">
+       <section id="work-experience" className="scroll-mt-20">
         <WorkExperience />
        </section>
         <section id="projects">
