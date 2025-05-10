@@ -5,15 +5,15 @@ import { ThemeProvider } from "next-themes";
 import "styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Next JS SaaS Starter Template",
-  description: "Next JS SaaS Starter Template",
+  title: "Hyeri Jung",
+  description: "Hyeri Jung Web Page",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/rabbit.png" type="image/svg+xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -21,13 +21,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      <body className="bg-white dark:bg-black min-h-screen">
+      <body className="bg-white dark:bg-black min-h-screen flex items-center justify-center">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-        <div className="flex min-h-screen w-full">
+        <div className="bg-green">
           <LeftSidebar />
-          <div className="flex flex-col md:ml-64">
+          <div className="flex md:ml-64">
             {/* mobile 상단바 공간 확보 */}
-            <main className="flex-1 pt-16 md:pt-0">{children}</main>
+            <main className="max-w-screen-lg pt-16">
+              {children}
+            </main>
           </div>
         </div>
         </ThemeProvider>
