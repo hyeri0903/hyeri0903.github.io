@@ -1,1 +1,1 @@
-# Welcom Hyeri-Jung Web Page!
+# Welcome Hyeri-Jung Web Page!
