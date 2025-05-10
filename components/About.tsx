@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function FirstBody() {
   return (
     <section className="text-center mx-auto px-4 py-24 bg-white dark:bg-black transition-colors duration-200">
-      <h2 className="font-sans text-large tracking-tighter sm:text-5xl md:text-6xl dark:text-white mb-6">
+      <h2 className="font-sans text-3xl tracking-tighter sm:text-5xl md:text-6xl dark:text-white mb-6">
         About
       </h2>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-12 font-light">

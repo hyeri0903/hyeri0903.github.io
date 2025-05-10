@@ -1,3 +1,4 @@
+import LeftSidebar from "components/LeftSideBar";
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 
@@ -22,7 +23,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="bg-white dark:bg-black min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          {children}
+        <div className="flex min-h-screen w-full">
+          <LeftSidebar />
+          <div className="flex flex-col md:ml-64">
+            {/* mobile 상단바 공간 확보 */}
+            <main className="flex-1 pt-16 md:pt-0">{children}</main>
+          </div>
+        </div>
         </ThemeProvider>
       </body>
     </html>
