@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-saas-starter-template",
+  "name": "my-home-page",
   "version": "1.0.0",
-  "description": "Nextjs Saas Starter Template",
+  "description": "Hyeri Jung Web Page",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
