@@ -4,7 +4,6 @@ import Profile from "components/Profile";
 import WorkExperience from "components/WorksExperience";
 import Footer from "components/Footer";
 import Projects from "components/Projects";
-import Publication from "components/Publication";
 
 export default function Page() {
   return (

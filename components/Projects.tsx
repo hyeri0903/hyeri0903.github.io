@@ -10,8 +10,8 @@ export default function Projects() {
 
         {/* 프로젝트 박스 */}
         <div className="flex flex-col gap-y-4 md:gap-y-4">
-          <div className="transition-transform duration-300 hover:scale-95"><Mbti2trip /></div>
-          <div className="transition-transform duration-300 hover:scale-95"><Mobileinvitations /></div>
+          <div><Mbti2trip /></div>
+          <div><Mobileinvitations /></div>
         </div>
         
       </div>

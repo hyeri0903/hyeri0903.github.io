@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
+import { Poppins } from 'next/font/google'
 
 import "styles/globals.css";
-import Template from "./template";
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'], // 원하는 weight
+})
 
 export const metadata: Metadata = {
   title: "Hyeri Jung",

@@ -1,10 +1,11 @@
-import Link from "next/link";
+'use client'
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { SiTistory } from "react-icons/si";
 import Image from "next/image";
+
 
 export default function Profile() {
   return (
@@ -13,10 +14,12 @@ export default function Profile() {
         <div className="flex items-center justify-center">
           <Image src="/rabbit.png" alt="rabbit" width={200} height={200} />
         </div>
+         
         <h2 className="mt-10 text-left text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
           Profile
         </h2>
-        <div className="mt-5 text-lg leading-relaxed text-gray-700 dark:text-gray-300 font-normal">
+       
+        <div className="mt-5 text-xl leading-relaxed text-gray-700 dark:text-gray-300 font-normal">
           Backend developer with 4+ years of experience building and scaling web server using Java and Kotlin. 
           Skilled in B2B services, distributed systems, and building maintainable architectures. 
           Strong communicator who bridges the gap between technical and non-technical stakeholders.
