@@ -12,10 +12,10 @@ export default function Profile() {
     <section className="min-h-screen flex flex-col md:flex-row bg-gray-200 dark:bg-black transition-colors justify-center">
       <div className="max-w-3xl md:w-2/3 flex-shrink-0 flex flex-col px-20 justify-center">
         <div className="flex items-center justify-center">
-          <Image src="/rabbit.png" alt="rabbit" width={200} height={200} />
+          <Image src="/profile.png" alt="rabbit" width={300} height={300} />
         </div>
          
-        <h2 className="mt-10 text-left text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
+        <h2 className="text-left text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
           Profile
         </h2>
        
