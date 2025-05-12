@@ -95,7 +95,7 @@ const WorkExperience = () => {
            <div>
               <div className="flex justify-between items-center">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                  Shinesegae I&C
+                  Shinsegae I&C
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Jan 2020 - Mar 2020
