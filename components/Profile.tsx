@@ -10,11 +10,10 @@ import Image from "next/image";
 export default function Profile() {
   return (
     <section className="min-h-screen flex flex-col md:flex-row bg-gray-200 dark:bg-black transition-colors justify-center">
-      <div className="max-w-3xl md:w-2/3 flex-shrink-0 flex flex-col px-20 justify-center">
+      <div className="w-full md:max-w-3xl md:w-2/3 flex-shrink-0 flex flex-col px-4 md:px-20 justify-center">
         <div className="flex items-center justify-center">
           <Image src="/profile.png" alt="rabbit" width={300} height={300} />
         </div>
-         
         <h2 className="text-left text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
           Profile
         </h2>
@@ -26,8 +25,8 @@ export default function Profile() {
         </div>
       </div>
       {/* Profile Content (우측) */}
-      <div className="md:w-1/3 flex flex-col justify-center px-20 py-5">
-        <h2 className="text-left text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
+      <div className="w-full md:w-1/3 flex flex-col justify-center px-4 md:px-20 py-5">
+        <h2 className="mt-5 text-left text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
           About me
         </h2>
         <div className="lg:w-full sm:w-full h-[1px] bg-black dark:bg-white mt-2 mb-3"></div>
@@ -72,12 +71,12 @@ export default function Profile() {
               </li>
             </ul>
           </div>
-          <h2 className="mt-20 text-left text-2xl md:text-3xl font-bold text-gray-900 dark:text-white w-full">
+          <h2 className="mt-20 text-left text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
             Skills
           </h2>
           <div className="lg:w-full sm:w-full h-[1px] bg-black dark:bg-white mt-2 mb-3"></div>
-          <div className="text-baseleading-relaxed text-gray-700 dark:text-gray-300 font-normal">
-            <ul>
+          <div className="text-base leading-relaxed text-gray-700 dark:text-gray-300 font-normal">
+            <ul className="space-y-3">
               <li>- Java, Kotlin, Python, React</li>
               <li>- Spring Boot, Kafka, Swagger, Git</li>
               <li>- MySQL, MongoDB</li>
