@@ -9,6 +9,9 @@ export default function Projects() {
         </h2>
 
         {/* 프로젝트 박스 */}
+        <h2 className="relative inline-block text-lg sm:text-2xl md:text-2xl font-bold text-gray-900 dark:text-white mb-8 after:content-[''] after:block after:absolute after:left-0 after:right-0 after:bottom-0 after:h-2 after:bg-blue-300 after:z-0 z-10">
+          <span className="relative z-10">Side Projects</span>
+        </h2>
         <div className="flex flex-col gap-y-4 md:gap-y-4">
           <div><Mbti2trip /></div>
           <div><Mobileinvitations /></div>
