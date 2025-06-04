@@ -78,7 +78,7 @@ const WorkExperience = () => {
               </ul>
           </div>
            {/* Intern - Works Mobile */}
-           <div {...aosProps}>
+           <div>
               <div className="flex justify-between items-center">
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Software Engineer, Intern

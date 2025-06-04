@@ -21,7 +21,7 @@ export default function Mobileinvitations() {
                 href="https://mobile-invitation-rouge.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-2 border-2 border-white text-black font-semibold hover:bg-white hover:text-black transition rounded-full"
+                className="inline-block px-6 py-2 border-2 border-white text-black dark:text-white font-semibold hover:bg-white hover:text-black transition rounded-full"
               >
                 LIVE DEMO
               </a>
@@ -29,7 +29,7 @@ export default function Mobileinvitations() {
                 href="https://github.com/hyeri0903/mobile-invitation"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-2 border-2 border-white text-black font-semibold hover:bg-white hover:text-black transition rounded-full"
+                className="inline-block px-6 py-2 border-2 border-white text-black dark:text-white font-semibold hover:bg-white hover:text-black transition rounded-full"
               >
                 VIEW CODE
               </a>

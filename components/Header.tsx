@@ -87,10 +87,10 @@ export default function Header() {
               Profile
             </Link>
             <Link href="/#work-experience" className="text-lg text-gray-800 dark:text-white" onClick={() => setMenuOpen(false)}>
-              Work Experience
+              Experience
             </Link>
             <Link href="/#projects" className="text-lg text-gray-800 dark:text-white" onClick={() => setMenuOpen(false)}>
-              Project
+              Projects
             </Link>
             <div className="pt-4 border-t border-gray-200 dark:border-white">
               <ThemeSwitch />
