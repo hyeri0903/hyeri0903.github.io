@@ -31,17 +31,17 @@ export default function Mbti2trip() {
                 href="https://mbti-to-trip.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-2 border-2 border-white text-white font-semibold hover:bg-white hover:text-black transition"
+                className="inline-block px-6 py-2 border-2 border-white text-black font-semibold hover:bg-white hover:text-black transition rounded-full"
               >
-                LIVE APP
+                LIVE DEMO
               </a>
               <a
                 href="https://github.com/hyeri0903/mbti2trip"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-2 border-2 border-white text-white font-semibold hover:bg-white hover:text-black transition"
+                className="inline-block px-6 py-2 border-2 border-white text-black font-semibold hover:bg-white hover:text-black transition rounded-full"
               >
-                LEARN MORE
+                VIEW CODE
               </a>
             </div>
           </div>
