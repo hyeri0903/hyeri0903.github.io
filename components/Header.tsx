@@ -39,7 +39,7 @@ export default function Header() {
                 href="/#work-experience"
                 className="text-sm text-gray-800 dark:text-white px-4 py-2 rounded-md hover:text-gray-500  transition-colors"
               >
-                <span className="text-lg">Work Experience</span>
+                <span className="text-lg">Experience</span>
               </Link>
             </li>
             <li>

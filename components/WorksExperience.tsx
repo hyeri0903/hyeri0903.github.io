@@ -1,19 +1,28 @@
-import React from "react";
+'use client';
+
+import React, { useEffect } from "react";
 import { FaReact, FaDatabase, FaShieldAlt } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
+import { aosProps } from "utils/aosConfig";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const WorkExperience = () => {
+  useEffect(() => {
+    AOS.init()
+  }, []);
+
   return (
     <section className="px-4 py-8 dark:bg-black transition-colors duration-200">
       {/* max-width + 중앙 정렬 */}
       <div className="max-w-screen-lg mx-auto">
-        <h2 className="text-2xl sm:text-3xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
+        <h2 {...aosProps} className="text-2xl sm:text-3xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
           Work Experience
         </h2>
         {/* 경력 내용 */}
         <div className="mt-2 space-y-8">
           {/* Naver Cloud */}
-          <div>
+          <div {...aosProps}>
               <div className="flex justify-between items-center">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                   NAVER Cloud
@@ -28,7 +37,7 @@ const WorkExperience = () => {
                 </p>
               </div>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Jeonja, South Korea
+                  Jeongja, South Korea
                 </p>
               <ul className="mt-2 list-disc list-inside text-gray-800 dark:text-gray-300 text-base space-y-1">
                 <li>
@@ -45,7 +54,7 @@ const WorkExperience = () => {
           </div>
 
           {/* Works Mobile */}
-          <div>
+          <div {...aosProps}>
               <div className="flex justify-between items-center">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                   NAVER Cloud (formerly WorksMobile)
@@ -69,7 +78,7 @@ const WorkExperience = () => {
               </ul>
           </div>
            {/* Intern - Works Mobile */}
-           <div>
+           <div {...aosProps}>
               <div className="flex justify-between items-center">
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Software Engineer, Intern
@@ -92,7 +101,7 @@ const WorkExperience = () => {
           </div>
 
            {/* Shinesegae */}
-           <div>
+           <div {...aosProps}>
               <div className="flex justify-between items-center">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                   Shinsegae I&C

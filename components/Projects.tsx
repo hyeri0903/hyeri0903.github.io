@@ -1,5 +1,9 @@
-import Mbti2trip from "./Mbti2trip";
-import Mobileinvitations from "./Mobileinvitations";
+'use client';
+
+import Mbti2trip from "./projects/Mbti2trip";
+import Mobileinvitations from "./projects/Mobileinvitations";
+import { aosProps } from '../utils/aosConfig';
+
 export default function Projects() {
   return (
     <section className="px-4 py-16 bg-gray-200 dark:bg-black transition-colors duration-200">
@@ -13,8 +17,8 @@ export default function Projects() {
           <span className="relative z-10">Side Projects</span>
         </h2>
         <div className="flex flex-col gap-y-4 md:gap-y-4">
-          <div><Mbti2trip /></div>
-          <div><Mobileinvitations /></div>
+          <div {...aosProps}><Mbti2trip /></div>
+          <div {...aosProps}><Mobileinvitations /></div>
         </div>
         
       </div>
