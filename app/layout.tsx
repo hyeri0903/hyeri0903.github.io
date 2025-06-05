@@ -16,19 +16,19 @@ const montserrat = Montserrat({
   variable: '--font-montserrat',
 });
 
-export const playfairSC = Playfair_Display_SC({
+const playfairSC = Playfair_Display_SC({
   subsets: ["latin"],
   weight: ["400"], // SC는 일반적으로 400만 제공
   variable: "--font-playfair-sc",
 });
 
-export const dmSerifDisplay = DM_Serif_Display({
+const dmSerifDisplay = DM_Serif_Display({
   subsets: ["latin"],
   weight: "400", // 이 폰트는 400만 지원돼
   variable: "--font-dm-serif-display",
 });
 
-export const lora = Lora({
+const lora = Lora({
   subsets: ['latin'],
   weight: ['400', '700'], // 본문: 400, 제목용: 700
   variable: '--font-lora',
