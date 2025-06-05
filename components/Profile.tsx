@@ -47,12 +47,26 @@ export default function Profile() {
           </div>
         </div>
         <div className="mt-5 mb-10 md:mb-20">
-          <button
+          {/* <button
             rel="noopener noreferrer"
             className="px-6 py-3 font-montserrat bg-black dark:bg-white text-white dark:text-black rounded-full hover:px-10 transition-all duration-300 ease-in-out"
           >
             Contact me
-          </button>
+          </button> */}
+           <div className="font-dmserif mt-5 text-2xl font-light leading-[1em] text-gray-900 dark:text-white">
+            Contact me
+          </div>
+          <div className="font-montserrat mt-3 text-[16px] leading-relaxed text-gray-700 dark:text-gray-300 font-normal">
+            Email: hyerijung0903@gmail.com <br/>
+            <a href="https://www.linkedin.com/in/hyerijung/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <span>LinkedIn</span>
+            </a> / <a href="https://github.com/hyeri0903" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <span>GitHub</span>
+            </a> / <a href="https://hyeri0903.tistory.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <span>Tech Blog</span>
+            </a>
+          </div>
+          
         </div>
       </div>
      
