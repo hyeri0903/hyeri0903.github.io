@@ -39,9 +39,9 @@ export default function Mobileinvitations() {
            <div className="md:w-1/2 w-full hover:cursor-pointer">
             <a href="https://mobile-invitation-rouge.vercel.app/" target="_blank" rel="noopener noreferrer">
               <img
-                src="/invitation.jpg" // public 폴더에 이미지 넣고 경로 지정
+                src="/pink.jpg" // public 폴더에 이미지 넣고 경로 지정
                 alt="project screenshot"
-                className="w-[450px] h-[300px] object-cover mx-auto transition-transform duration-1000 ease-out hover:scale-110"
+                className="w-[450px] h-[350px] object-cover mx-auto transition-transform duration-1000 ease-out hover:scale-110"
               />
               </a>
           </div>
