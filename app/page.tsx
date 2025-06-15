@@ -4,6 +4,7 @@ import Profile from "components/Profile";
 import WorkExperience from "components/WorksExperience";
 import Footer from "components/Footer";
 import Projects from "components/Projects";
+import Contact from "components/Contact";
 
 export default function Page() {
   return (
@@ -21,6 +22,9 @@ export default function Page() {
        </section>
         <section id="projects" className="scroll-mt-20">
           <Projects />
+        </section>
+        <section id="conteact" className="scroll-mt-20">
+          <Contact />
         </section>
         {/* <section id="publication">
           <Publication />

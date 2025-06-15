@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from "framer-motion";
+import { ArrowDown } from "lucide-react";
 
 export default function Home() {
   return (
@@ -37,6 +38,9 @@ export default function Home() {
            Backend developer specializing in web services.
         </p>
       </div>
+      <a href="#profile" aria-label="Scroll to about section" className="absolute bottom-10 animate-bounce">
+        <ArrowDown className="w-6 h-6 text-primary" />
+      </a>
     </section>
   );
 }

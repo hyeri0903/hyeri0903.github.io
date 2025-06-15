@@ -50,14 +50,14 @@ export default function Header() {
                 <span className="text-lg">Projects</span>
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link
-                href="/#publication"
-                className="text-sm text-gray-800 dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                href="/#contact"
+                className="text-sm text-gray-800 dark:text-white px-4 py-2 rounded-md transition-colors"
               >
-                Publication
+                <span className="text-lg">Contact</span>
               </Link>
-            </li> */}
+            </li>
           </ul>
           <ThemeSwitch />
         </nav>
@@ -83,6 +83,9 @@ export default function Header() {
             >
               <HiX size={28} />
             </button>
+            <Link href="/" className="text-lg text-gray-800 dark:text-white" onClick={() => setMenuOpen(false)}>
+              Home
+            </Link>
             <Link href="/#profile" className="text-lg text-gray-800 dark:text-white" onClick={() => setMenuOpen(false)}>
               Profile
             </Link>
@@ -91,6 +94,9 @@ export default function Header() {
             </Link>
             <Link href="/#projects" className="text-lg text-gray-800 dark:text-white" onClick={() => setMenuOpen(false)}>
               Projects
+            </Link>
+            <Link href="/#contact" className="text-lg text-gray-800 dark:text-white" onClick={() => setMenuOpen(false)}>
+              Contact
             </Link>
             <div className="pt-4 border-t border-gray-200 dark:border-white">
               <ThemeSwitch />
