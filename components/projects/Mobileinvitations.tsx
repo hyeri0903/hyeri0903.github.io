@@ -3,7 +3,7 @@ export default function Mobileinvitations() {
     <div>
       <div className="flex flex-col md:flex-row items-center rounded-lg overflow-hidden">
           {/* 오른쪽 텍스트 영역 */}
-          <div className="md:w-1/2 w-full p-8">
+          <div className="md:w-1/2 w-full p-8 order-2 md:order-1">
             <h3 
               className="text-3xl font-bold text-black dark:text-white mb-4"
               style={{ textTransform: 'uppercase' }}
@@ -36,7 +36,7 @@ export default function Mobileinvitations() {
             </div>
           </div>
            {/* 오른쪽 이미지 영역 */}
-           <div className="md:w-1/2 w-full hover:cursor-pointer">
+           <div className="md:w-1/2 w-full hover:cursor-pointer order-1 md:order-2">
             <a href="https://mobile-invitation-rouge.vercel.app/" target="_blank" rel="noopener noreferrer">
               <img
                 src="/pink.jpg" // public 폴더에 이미지 넣고 경로 지정
