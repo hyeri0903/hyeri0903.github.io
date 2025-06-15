@@ -98,7 +98,7 @@ export default function Header() {
             <Link href="/#contact" className="text-lg text-gray-800 dark:text-white" onClick={() => setMenuOpen(false)}>
               Contact
             </Link>
-            <div className="pt-4 border-t border-gray-200 dark:border-white">
+            <div className="pt-4 dark:border-white">
               <ThemeSwitch />
             </div>
           </div>
