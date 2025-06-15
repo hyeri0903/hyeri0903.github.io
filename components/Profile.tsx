@@ -1,9 +1,17 @@
-'use client'
-
+'use client';
 import { aosProps } from "utils/aosConfig";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 export default function Profile() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <section className="min-h-screen flex flex-col md:flex-row bg-[#ece7e1] dark:bg-black transition-colors">
       <div className="w-full md:w-[50%] md:ml-[15%] flex-shrink-0 flex flex-col px-4 md:px-20 justify-center gap-5">
